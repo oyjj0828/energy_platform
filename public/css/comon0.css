@@ -199,30 +199,30 @@ body {
 
 
 .boxall {
-  padding: 0 .2rem .2rem .2rem;
   /* background: rgba(6, 48, 109, .5); */
-  position: relative;
-  margin-bottom: .15rem;
+  position: absolute;
+  width:100%;
   z-index: 10;
 }
 
 .alltitle {
-  position: relative;
-  font-size: 14px;
+  position: absolute;
+  font-size: 16px;
+  font-weight: bold;
   color: #ffffff;
   text-shadow: 0 0 3px #1e82be, 0 0 4px #1e82be, 0 0 5px #1e82be, 0 0 6px #1e82be !important;
   top: 15px;
-  left:30px;
+  left:25px;
 }
 
 .alltitle:before {
   position: absolute;
-  height: 20px;
-  width: 200px;
+  height: 22px;
+  width: 330px;
   content: "";
   background-image: url('../../src/assets/标题背景.png');
-  left: -25px;
-  opacity: 0.5;
+  left: -15px;
+  opacity: 0.4;
   top: 0px;
   z-index: -1;
 }

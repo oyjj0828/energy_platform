@@ -186,13 +186,13 @@ export default {
 }
 
 ::v-deep .el-tabs__item.is-active {  /* 被选中时 */
-  color: #00b44e;  
+  color: #00ffc3;  
   font-size:16px;
   font-weight:bold;
 }
 
 ::v-deep .el-tabs__item {  /* 未被选中时 */
-  color: #009bba; 
+  color: #56d4fbdb; 
   font-size:16px;
   font-weight:bold;
 }
