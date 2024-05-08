@@ -37,22 +37,22 @@
       <div v-if="views[0]" style="width:100%; height:100%;">
         <ZongLan />
       </div>
-      <div v-if="views[1]" style="width:100%; height:100%;">
+      <div v-else-if="views[1]" style="width:100%; height:100%;">
         <WeiDianWang/>
       </div>
-      <div v-if="views[2]" style="width:100%; height:100%;">
+      <div v-else-if="views[2]" style="width:100%; height:100%;">
         <GuangFu />
       </div>
-      <div v-if="views[3]" style="width:100%; height:100%;">
+      <div v-else-if="views[3]" style="width:100%; height:100%;">
         <ChuNeng/>
       </div>
-      <div v-if="views[4]" style="width:100%; height:100%;">
+      <div v-else-if="views[4]" style="width:100%; height:100%;">
         <GongLengGongRe/>
       </div>
-      <div v-if="views[5]" style="width:100%; height:100%;">
+      <div v-else-if="views[5]" style="width:100%; height:100%;">
         <ShuiXiTong/>
       </div>
-      <div v-if="views[6]" style="width:100%; height:100%;">
+      <div v-else-if="views[6]" style="width:100%; height:100%;">
         <FuHe/>
       </div>
     </div>

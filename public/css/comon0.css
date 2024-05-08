@@ -207,25 +207,24 @@ body {
 }
 
 .alltitle {
-  font-size: .25rem;
+  position: relative;
+  font-size: 14px;
   color: #ffffff;
   text-shadow: 0 0 3px #1e82be, 0 0 4px #1e82be, 0 0 5px #1e82be, 0 0 6px #1e82be !important;
-  line-height: .5rem;
-  position: relative;
-  padding-left: .25rem;
-  top: 5%;
-  left:10px;
+  top: 15px;
+  left:30px;
 }
 
 .alltitle:before {
   position: absolute;
-  height: 18px;
-  width: 21px;
+  height: 20px;
+  width: 200px;
   content: "";
-  background-image: url('../../src/assets/bg_alltitle.svg');
-  left: -10px;
-  top: 38%;
-  margin-top: -.1rem;
+  background-image: url('../../src/assets/标题背景.png');
+  left: -25px;
+  opacity: 0.5;
+  top: 0px;
+  z-index: -1;
 }
 
 .boxnav {
